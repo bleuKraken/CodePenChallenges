@@ -1,0 +1,122 @@
+* {
+  font-size: 1.05rem;
+}
+
+html {
+  height: 100%;
+}
+
+.bg-primary {
+  background-color: rgb(46, 20, 186) !important;
+}
+.bg-danger {
+  background-color: rgb(229, 8, 91) !important;
+}
+.bg-secondary {
+  background-color: rgb(232, 232, 232) !important;
+}
+.text-warning {
+  color: rgb(186, 125, 7) !important;
+}
+
+
+#menu-container {
+  position: absolute;
+  top: 25%;
+}
+
+.gradient-background {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(#1206b3, #e8095b);
+}
+
+.codepen-image-container {
+  min-width: 200px;
+}
+
+.unsplash-info {
+  max-width: 500px;
+  text-align: center;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+#codepen-text-image {
+  background-image: url('https://raw.githubusercontent.com/erickkg/SiteImages/master/Codepen/codepen-logo.png');
+  background-size: contain;
+  height: 100px;
+  min-width: 200px;
+  max-width: 220px;
+  background-repeat: no-repeat;
+}
+
+#unsplash-logo {
+  background-image: url('https://banner2.kisspng.com/20180406/che/kisspng-unsplash-web-browser-photography-photo-cameras-5ac75db751def1.6930487815230150953354.jpg');
+  background-size: contain;
+  height: 100px;
+  min-width: 130px;
+  max-width: 200px;
+  background-repeat: no-repeat;
+}
+
+#people-background, #nature-background,
+#architecture-background, #food-background,
+#sports-background {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 7%;
+}
+
+.button-people, .button-nature,
+.button-architecture, .button-food,
+.button-sports {
+  min-width: 100px;
+}
+
+.button-people:hover, .button-nature:hover,
+.button-architecture:hover, .button-food:hover,
+.button-sports:hover {
+  background-color: rgb(229, 8, 91) !important;
+  color: rgb(236, 236, 236);
+}
+
+#dropdown-people, #dropdown-nature,
+#dropdown-architecture, #dropdown-food,
+#dropdown-sports {
+  position: absolute;
+  width: 165px;
+}
+
+#dropdown-people a, #dropdown-nature a,
+#dropdown-architecture a, #dropdown-food a,
+#dropdown-sports a {
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  -webkit-transition: color 0.25s, font-size 0.25s;
+  -moz-transition: color 0.25s, font-size 0.25s;
+  -o-transition: color 0.25s, font-size 0.25s;
+  transition: color 0.25s, font-size 0.25s;
+}
+
+#dropdown-people a:hover, #dropdown-nature a:hover,
+#dropdown-architecture a:hover, #dropdown-food a:hover,
+#dropdown-sports a:hover {
+  font-size: 22px;
+}
+
+/* Mobile or small width devices, move divs up. */
+@media screen and (max-width: 650px) {
+  #menu-container {
+    position: absolute;
+    top: 5%;
+  }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- LOCAL CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Full Page Nav</title>
+</head>
+
+<!-- Home Sceen -->
+<body id="body" class=" bg-secondary">
+  <!-- STORY BEGINS HERE -->
+  <div id="home-page" class="container py-5 bg-seocndary">
+    <div class="row d-flex justify-content-between">
+      <div id="codepen-text-image"></div>
+      <i class="fas fa-camera fa-4x pt-3 pr-2"></i>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <span class="d-block my-3">CodePen's Full Page Navigation challenge combined with <a href="https://unsplash.com/" target="_blank" class="text-info">Unsplash</a></span>
+        <p> <span class="font-weight-bold">Challenge:</span> <span class="text-warning"> Build a full-page navigation experience. </span></p>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <p class="unsplash-info">The navigation leads to real search results from Unsplash. Best on desktop or wide screens.</p>
+      <p class="unsplash-info">What is Unsplash? It's an amazing website where users can upload their photographs and share them with the world!</p>
+    </div>
+    <div class="row d-flex justify-content-center my-3">
+      <a href="#" id="view-navigation" class="btn btn-outline-dark">View Navigation</a>
+    </div>
+    <div class="row d-flex justify-content-center mt-5">
+      <p>Made by: <a href="https://codepen.io/erickkg" class="decoration-none"> Erick Gonzalez</a> </p>
+    </div>
+    <div class="row d-flex justify-content-center">
+      <a href="https://www.instagram.com/l337_pr0d16y/" target="_blank" class="text-dark"> <i class="fab fa-instagram fa-2x p-2"></i></a>
+      <a href="https://github.com/erickkg" target="_blank" class="text-dark"> <i class="fab fa-github fa-2x p-2"></i></a>
+      <a href="https://codepen.io/erickkg" target="_blank" class="text-dark"> <i class="fab fa-codepen fa-2x p-2"></i></a>
+    </div>
+  </div>
+
+  <!-- Navigation Menu -->
+  <div id="menu-container" class="container-fluid invisible">
+    <div class="row d-flex justify-content-end">
+      <i class="closing-icon far fa-times-circle fa-2x text-light p-2 mr-3"></i>
+    </div>
+    <!-- Buttons -->
+    <div id="menu-row" class="row text-center d-flex justify-content-center">
+      <div id="people-background" class="button-people border border-outline-dark p-2 m-1 bg-primary text-light">
+        <i class="button-people fas fa-users fa-3x d-block"></i>
+        <span class="button-people text-light">People</span>
+      </div>
+      <div id="nature-background" class="button-nature border border-outline-dark p-2 m-1 bg-primary text-light">
+        <i class="button-nature fas fa-tree fa-3x d-block"></i>
+        <span class="button-nature text-light">Nature</span>
+      </div>
+      <div id="architecture-background" class="button-architecture border border-outline-dark p-2 m-1 bg-primary text-light">
+        <i class="button-architecture fas fa-archway fa-3x d-block"></i>
+        <span class="button-architecture text-light">Architecture</span>
+      </div>
+      <div id="food-background" class="button-food border border-outline-dark p-2 m-1 bg-primary text-light">
+        <i class="button-food fas fa-utensils fa-3x d-block"></i>
+        <span class="button-food text-light">Food</span>
+      </div>
+      <div id="sports-background" class="button-sports border border-outline-dark p-2 m-1 bg-primary text-light">
+        <i class="button-sports fas fa-futbol fa-3x d-block"></i>
+        <span class="button-sports text-light">Sports</span>
+      </div>
+    </div>
+
+
+    <!-- Dropdown Menu COntent -->
+    <div class=" row d-flex justify-content-center text-center mt-3">
+      <div id="dropdown-people" class="invisible">
+        <a href="https://unsplash.com/s/photos/male" target="_blank">Male</a>
+        <a href="https://unsplash.com/s/photos/female" target="_blank">Female</a>
+        <a href="https://unsplash.com/s/photos/groups-of-people" target="_blank">Groups</a>
+      </div>
+      <div id="dropdown-nature" class="invisible">
+        <a href="https://unsplash.com/s/photos/woods" target="_blank">Woods</a>
+        <a href="https://unsplash.com/s/photos/plants" target="_blank">Plants</a>
+        <a href="https://unsplash.com/s/photos/wildlife" target="_blank">Wildlife</a>
+        <a href="https://unsplash.com/s/photos/animals" target="_blank">Animals</a>
+      </div>
+      <div id="dropdown-architecture" class="invisible">
+        <a href="https://unsplash.com/s/photos/homes" target="_blank">Homes</a>
+        <a href="https://unsplash.com/s/photos/interior-design" target="_blank">Interior Design</a>
+        <a href="https://unsplash.com/s/photos/exterior-design" target="_blank">Exterior Design</a>
+        <a href="https://unsplash.com/s/photos/walls" target="_blank">Walls</a>
+      </div>
+      <div id="dropdown-food" class="invisible">
+        <a href="https://unsplash.com/s/photos/pasta" target="_blank">Pasta</a>
+        <a href="https://unsplash.com/s/photos/hamburgers" target="_blank">Hamburgers</a>
+        <a href="https://unsplash.com/s/photos/pizza" target="_blank">Pizza</a>
+        <a href="https://unsplash.com/s/photos/hotdogs" target="_blank">Hotdogs</a>
+        <a href="https://unsplash.com/s/photos/food" target="_blank">Any Foods</a>
+      </div>
+      <div id="dropdown-sports" class="invisible">
+        <a href="https://unsplash.com/s/photos/futbol" target="_blank">Futbol</a>
+        <a href="https://unsplash.com/s/photos/basketball" target="_blank">Basketball</a>
+        <a href="https://unsplash.com/s/photos/hockey" target="_blank">Hockey</a>
+        <a href="https://unsplash.com/s/photos/swim" target="_blank">Swim</a>
+        <a href="https://unsplash.com/s/photos/sports" target="_blank">Any Sports</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FONT AWSOME -->
+  <script src="https://kit.fontawesome.com/10a1582225.js"></script>
+  <!-- JAVASCRIPT FOR BOOTSTRAP CLASSES -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="javascript/javascript.js"></script>
+
+</body>
+
+</html>
