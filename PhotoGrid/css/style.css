@@ -1,0 +1,62 @@
+* {
+  /* border: 1px solid rgb(212, 184, 112); */
+}
+
+body {
+  background-color: rgb(57, 57, 57);
+}
+/* Responsive Photo Grid START */
+.responsive-images .col img {
+  margin: 8px 4px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - Makes 2 columns show */
+@media screen and (max-width: 800px) {
+  .responsive-images .col {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - Makes 1 column show */
+@media screen and (max-width: 600px) {
+  .responsive-images .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive Photo Grid END */
+
+/* Square Grid Photo START */
+#square-view .row {
+  display: flex;
+  justify-content: center;
+}
+
+#square-view .row a {
+  /*
+  border: 1px solid black;
+  padding: 4px;
+  width: auto;
+  height: 250px;
+  */
+  width: 325px;
+  height: 325px;
+  position: relative;
+  overflow: hidden;
+  margin: 6px;
+}
+
+#square-view .row a img {
+  /*
+  width: 250px;
+  height: 250px;
+  */
+  width: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+}
+/* Square Grid Photo END */
