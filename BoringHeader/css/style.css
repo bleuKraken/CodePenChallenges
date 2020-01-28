@@ -36,6 +36,19 @@ a:hover {
   background-image: url('https://source.unsplash.com/random/1920x1080');
 }
 
+.site-nav a {
+
+}
+
+.site-nav a:hover {
+  -ms-transition: 0.4s ease-in-out;
+-webkit-transition: 0.4s ease-in-out;
+transition: 0.4s ease-in-out;
+
+  color: rgb(33, 189, 95);
+
+}
+
 .button-green {
   color: rgb(51, 208, 51);
 }
