@@ -5,9 +5,9 @@ body {
 * {
   border: 1px solid rgb(152, 210, 250);
 }
-.site-wrapper {
-  height: 100vh;
-  background-image: url('https://source.unsplash.com/random/1920x1080');
+
+a:hover {
+  text-decoration: none;
 }
 
 #header {
@@ -19,4 +19,36 @@ body {
   margin: 30vh 5vh;
   padding: 10px 20px;
   border: 1px solid rgb(71, 71, 71);
+  border-radius: 25px;
+}
+
+#section-background-button {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  color: rgb(218, 182, 28);
+  font-weight: bold;
+}
+.site-wrapper {
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/random/1920x1080');
+}
+
+.button-green {
+  color: rgb(51, 208, 51);
+}
+
+.button-refresh {
+  color: #fff;
+  background-color: rgba(88, 103, 235, 0.8);
+  padding: 15px;
+  border: rgb(0, 0, 0);
+  border-radius: 25px;
+  font-size: 1.2rem;
+}
+
+.button-refresh:hover {
+  color: #000;
 }
