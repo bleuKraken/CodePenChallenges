@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+* {
+  border: 1px solid rgb(152, 210, 250);
+}
+.site-wrapper {
+  height: 100vh;
+  background-image: url('https://source.unsplash.com/random/1920x1080');
+}
+
+#header {
+  min-height: 50px;
+  background-color: rgba(24, 24, 24, 0.7);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+  margin: 30vh 5vh;
+  padding: 10px 20px;
+  border: 1px solid rgb(71, 71, 71);
+}
