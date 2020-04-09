@@ -1,0 +1,111 @@
+* {
+  /* border: 1px solid rgb(160, 192, 204);  */
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(24, 24, 24);
+  color: rgb(255, 255, 255);
+}
+
+header {
+  text-align: center;
+  background-color: rgb(96, 96, 96);
+}
+
+footer {
+  margin-top: 20%;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 0px;
+  padding-top: 10px;
+}
+
+hr {
+  margin: 30px 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#meme-text {
+  /* font-size: 1.5em; */
+  color: #fff;
+  display: block;
+  margin: 20% 5%;
+  vertical-align: middle;
+}
+
+#icon-container a {
+  margin: 0px 10px;
+}
+
+#meme-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-height: 400px;
+  max-width: 400px;
+  height: 320px;
+  width: 320px;
+  background-image: url('https://source.unsplash.com/1080x1080/?programming,coding,desk,computer,code');
+  background-size: cover;
+}
+
+.block {
+  display: block;
+}
+
+.meme-options {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 15px;
+  background-color: rgb(46, 21, 119);
+}
+
+.dropdown {
+  padding-left: 3px;
+}
+
+.dropdown-options, .dropdown-size {
+  padding: 4px 3px;
+}
+
+.button {
+  padding: 8px;
+  border: 1px solid #000;
+  background-color: rgb(24, 24, 24);
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.meme-section {
+  display: flex;
+  justify-content: center;
+}
+
+.transparent-layer {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* margin: inherit; */
+  margin: 0px;
+  height: 100%;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.font-size-sm {
+  font-size: 1rem;
+}
+
+.font-size-md {
+  font-size: 1.25rem;
+}
+
+.font-size-lg {
+  font-size: 1.5rem;
+}
