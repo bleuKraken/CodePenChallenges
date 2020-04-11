@@ -2,10 +2,6 @@
   border: 1px solid rgb(33, 102, 67);
 }
 
-p, h2 {
-  padding: 20px;
-}
-
 .body {
   background-color: rgb(27, 27, 27);
   margin: 0;
@@ -26,54 +22,36 @@ p, h2 {
 .header-title {
   padding: 20px;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
-.icon-container {
-  text-align: center;
+.header-title h4{
+  text-align: left;
+}
+
+.quote-container {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: rgb(255, 255, 255);
 }
 
 .button-container {
   text-align: center;
   border: 1px solid #000;
-  margin-bottom: 10%;
+  margin-bottom: 3%;
 }
 
-.play-button {
+.generate-button {
   padding: 5px 10px;
   color: rgb(200, 172, 53);
   background-color: rgba(47, 48, 50, 0.6);
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   user-select: none;
   border-radius: .25rem;
 }
 
-.play-button:hover {
+.generate-button:hover {
   background-color: rgba(15, 15, 15, 0.8);
-}
-
-.section-video {
-  color: rgb(241, 241, 241);
-}
-
-.fas {
-  box-shadow: 5px 10px 8px 10px #888888;
-  animation: MoveUpDown 2s linear infinite;
-  position: absolute;
-  border-radius: 50%;
-}
-
-.video-container {
-  min-width: 300px;
-  min-height: 400px;
-  text-align: center;
-}
-
-.video-title {
-  text-align: center;
-}
-
-.video-story {
-  margin: auto 0;
 }

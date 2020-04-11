@@ -1,5 +1,9 @@
-const playButton = document.getElementById('play-video');
+const generateButton = document.getElementById('generate-quote');
 
-playButton.addEventListener("click", function(){
+generateButton.addEventListener("click", function(){
   console.log("Ow, clicking hurts me!");
 });
+
+let quotes = {
+
+}
