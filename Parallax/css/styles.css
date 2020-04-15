@@ -1,0 +1,8 @@
+
+.header-image {
+  background-image: url('https://source.unsplash.com/8Cpt0rYRt90');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  height: 500px;
+}
